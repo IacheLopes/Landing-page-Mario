@@ -4,7 +4,7 @@ header {
     column-gap: 64px;
 
     width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     padding-top: 20px;
 }
 
@@ -81,7 +81,7 @@ header img {
 @media (max-width: 750px) {
     header {
         margin-left: 20px;
-        display:table;
+        display:block;
         padding-top: 20px;
     }
 }

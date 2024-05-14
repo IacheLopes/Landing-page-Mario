@@ -8,6 +8,8 @@ main {
     max-width: 1440px;
 }
 
+
+
 .main__info {
     width: 100%;
     max-width: 550px;
@@ -56,6 +58,15 @@ main {
     background: transparent;
 }
 
+main #formatar img{
+    width: 92%;
+}
+
+#formatar{
+    justify-content: end;
+    align-items: end;
+}
+
 @media (max-width: 750px) {
     main {
         display:grid;
@@ -78,7 +89,6 @@ main {
 
 @media (max-width: 750px) {
     main #formatar img{
-        
         margin-bottom: 195px;
     }
 }
